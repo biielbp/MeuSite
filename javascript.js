@@ -7,7 +7,7 @@ let apagando = false;
 function efeitoDigitar() {
     if (!apagando) {
         // digitando
-        elemento.innerHTML = texto.substring(0, i + 1);
+       elemento.innerHTML = `<span>${texto.substring(0, i + 1)}</span>`;
         i++;
 
         if (i === texto.length) {
